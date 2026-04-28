@@ -34,7 +34,7 @@ export default function Login({ onLogin }) {
       <div className="login-container animate-in">
         <div className="login-card">
           <div className="login-header">
-            <div className="login-logo">🔬</div>
+            <div className="login-logo">R</div>
             <h2>ResearchHub</h2>
             <p>Plataforma de Gestión de Investigación Colaborativa</p>
           </div>
@@ -69,7 +69,7 @@ export default function Login({ onLogin }) {
             </div>
 
             <button className="btn btn-primary" type="submit" disabled={loading}>
-              {loading ? '⏳ Procesando...' : (tab === 'login' ? '🚀 Iniciar Sesión' : '✨ Crear Cuenta')}
+              {loading ? '⏳ Procesando...' : (tab === 'login' ? ' Iniciar Sesión' : 'Crear Cuenta')}
             </button>
           </form>
 

@@ -171,19 +171,6 @@ export default function Documentos({ user, documentLocks = {}, lockDocument, unl
         <button className="btn btn-primary" onClick={() => setShowCreateDoc(true)}>➕ Nuevo Documento</button>
       </div>
 
-      {/* Concurrency Control Info Banner */}
-      <div className="arch-banner">
-        <div className="arch-banner-icon">🔒</div>
-        <div className="arch-banner-content">
-          <h3>Control de Concurrencia Activo</h3>
-          <p>Usa el botón de candado para bloquear un documento mientras lo editas. Otros usuarios verán que está bloqueado y no podrán subir versiones hasta que lo liberes.</p>
-          <div className="arch-tags">
-            <span className="arch-tag">🔒 Bloqueo Pesimista</span>
-            <span className="arch-tag">🌿 Ramas Paralelas</span>
-            <span className="arch-tag">📎 Versionado</span>
-          </div>
-        </div>
-      </div>
 
       {documentos.length === 0 ? (
         <div className="card">

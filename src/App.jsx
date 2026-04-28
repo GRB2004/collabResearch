@@ -76,7 +76,7 @@ function Sidebar({ user, onLogout, onlineUsers }) {
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
-        <div className="logo-icon">🔬</div>
+        <div className="logo-icon">R</div>
         <div>
           <h1>ResearchHub</h1>
           <span className="logo-sub">Trabajo Colaborativo</span>
@@ -85,23 +85,23 @@ function Sidebar({ user, onLogout, onlineUsers }) {
 
       <nav className="sidebar-nav">
         <NavLink to="/dashboard" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-          <span className="nav-icon">📊</span>
+          <span className="nav-icon"></span>
           <span>Dashboard</span>
         </NavLink>
         <NavLink to="/board" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-          <span className="nav-icon">📋</span>
+          <span className="nav-icon"></span>
           <span>Tablero</span>
         </NavLink>
         <NavLink to="/documentos" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-          <span className="nav-icon">📄</span>
+          <span className="nav-icon"></span>
           <span>Documentos</span>
         </NavLink>
         <NavLink to="/calendario" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-          <span className="nav-icon">📅</span>
+          <span className="nav-icon"></span>
           <span>Cronograma</span>
         </NavLink>
         <NavLink to="/equipos" className={({ isActive }) => `nav-item ${isActive ? 'active' : ''}`}>
-          <span className="nav-icon">👥</span>
+          <span className="nav-icon"></span>
           <span>Miembros</span>
         </NavLink>
       </nav>

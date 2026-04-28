@@ -772,6 +772,7 @@ body {
 
 .login-form .btn-primary {
   width: 100%;
+  justify-content: center;
   padding: 12px;
   font-size: 15px;
   margin-top: 8px;

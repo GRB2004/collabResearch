@@ -34,23 +34,9 @@ export default function Equipos({ user, onlineUsers = [] }) {
     <div className="animate-in">
       <div className="page-header">
         <h2>Miembros del Proyecto 👥</h2>
-        <p>Conciencia de grupo (Group Awareness) — visualiza quién está conectado y qué está haciendo</p>
       </div>
 
-      {/* Awareness Info Banner */}
-      <div className="arch-banner">
-        <div className="arch-banner-icon">👁️</div>
-        <div className="arch-banner-content">
-          <h3>Conciencia de Grupo en Tiempo Real</h3>
-          <p>Mediante WebSocket, cada usuario transmite su estado de presencia y la página que está visitando. Esto permite a los miembros del equipo coordinarse y saber quién está trabajando en qué sección del proyecto.</p>
-          <div className="arch-tags">
-            <span className="arch-tag">🔌 WebSocket</span>
-            <span className="arch-tag">👁️ Awareness</span>
-            <span className="arch-tag">📡 Tiempo Real</span>
-            <span className="arch-tag">🟢 Gestión de Sesión</span>
-          </div>
-        </div>
-      </div>
+
 
       {/* Stats */}
       <div className="dashboard-grid" style={{ marginBottom: '24px' }}>

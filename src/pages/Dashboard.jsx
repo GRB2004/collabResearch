@@ -55,21 +55,6 @@ export default function Dashboard({ user, onlineUsers = [] }) {
         <p>Resumen general de tu proyecto de investigación colaborativa</p>
       </div>
 
-      {/* Architecture Info Banner */}
-      <div className="arch-banner">
-        <div className="arch-banner-icon">🏗️</div>
-        <div className="arch-banner-content">
-          <h3>Arquitectura Centralizada (Cliente-Servidor)</h3>
-          <p>Esta plataforma utiliza una arquitectura centralizada: React (cliente) se comunica con Express.js (servidor) mediante REST API y WebSocket para comunicación en tiempo real.</p>
-          <div className="arch-tags">
-            <span className="arch-tag">🖥️ Cliente: React SPA</span>
-            <span className="arch-tag">⚙️ Servidor: Express.js</span>
-            <span className="arch-tag">🔌 WebSocket: Socket.io</span>
-            <span className="arch-tag">💾 DB: SQLite</span>
-            <span className="arch-tag">🔑 Auth: JWT</span>
-          </div>
-        </div>
-      </div>
 
       <div className="dashboard-grid">
         <div className="stat-card">
